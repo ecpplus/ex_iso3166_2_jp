@@ -1,6 +1,6 @@
-# Iso31662Jp
+# ISO3166_2_JP
 
-**TODO: Add description**
+[![CircleCI](https://circleci.com/gh/ecpplus/ex_iso3166_2_jp.svg?style=svg)](https://circleci.com/gh/ecpplus/ex_iso3166_2_jp)
 
 ## Installation
 
