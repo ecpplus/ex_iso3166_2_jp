@@ -37,7 +37,7 @@ defmodule Iso31662Jp.Mixfile do
 
   defp package do
     [
-      name: :js_string,
+      name: :iso3166_2_jp,
       files: ["lib", "mix.exs", "README*"],
       maintainers: ["chu"],
       licenses: ["Apache 2.0"],
