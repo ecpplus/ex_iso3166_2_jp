@@ -7,7 +7,11 @@ defmodule Iso31662Jp.Mixfile do
       version: "0.1.0",
       elixir: "~> 1.5",
       start_permanent: Mix.env == :prod,
-      deps: deps()
+      description: description(),
+      package: package(),
+      deps: deps(),
+      name: "ISO3166_2_JP",
+      source_url: "https://github.com/ecpplus/ex_iso3166_2_jp"
     ]
   end
 
@@ -21,8 +25,23 @@ defmodule Iso31662Jp.Mixfile do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      # {:dep_from_hexpm, "~> 0.3.0"},
-      # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"},
+      {:ex_doc, ">= 0.0.0", only: :dev}
+    ]
+  end
+
+  defp description do
+    """
+    ISO3166 2 Japanese Prefecture codes
+    """
+  end
+
+  defp package do
+    [
+      name: :js_string,
+      files: ["lib", "mix.exs", "README*"],
+      maintainers: ["chu"],
+      licenses: ["Apache 2.0"],
+      links: %{"GitHub" => "https://github.com/ecpplus/ex_iso3166_2_jp"}
     ]
   end
 end
