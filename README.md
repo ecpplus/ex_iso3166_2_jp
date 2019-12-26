@@ -1,6 +1,6 @@
 # ISO3166_2_JP
 
-[![CircleCI](https://circleci.com/gh/ecpplus/ex_iso3166_2_jp.svg?style=svg)](https://circleci.com/gh/ecpplus/ex_iso3166_2_jp)
+[![TravisCI](https://travis-ci.org/ecpplus/ex_iso3166_2_jp.svg?branch=master)](https://travis-ci.org/ecpplus/ex_iso3166_2_jp)
 
 ## Installation
 
